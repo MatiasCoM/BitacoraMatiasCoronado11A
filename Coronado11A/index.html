@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora Matias Coronado</title>
+    <link rel="icon" type="image/png" href="recursos/img/lecap.png">
+
+    <style>
+        /*CSS-Diseño, configurar en cascada (Esto si es un lenguaje de progra)*/
+        html, body{
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        body{
+        display: flex; 
+        flex-direction: column;
+        text-align: center;
+        }
+        header{
+        color: rgb(186, 119, 4);
+        padding: 20px;
+        background-color: burlywood;   
+        }
+        h1 {
+            color: #fff;
+            margin: 0;
+            text-shadow: 
+                0 0 5px #fff, 
+                0 0 10px #fff, 
+                0 0 20px #ff9100, 
+                0 0 30px #ffae00, 
+                0 0 40px #ffaa00;    
+            }
+
+        main{
+            flex: 1;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0;
+            }
+        .semana {
+        background-color: white; 
+        border-radius: 12px;     
+        padding: 20px;          
+        margin: 20px 0;          
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        border-left: 5px solid rgb(255, 145, 0);
+        transition: 0.3s;        
+        text-align: left; 
+        display: flex;
+        align-items: center; 
+        gap: 40px
+        ;     
+}
+
+
+        .semana:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        transform: translateY(-5px);
+}
+
+        footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-top: 1px;
+            background-color: chocolate;
+            }
+        footer img {
+            transition: transform 0.3s ease; 
+        }
+
+        footer img:hover {
+            transform: scale(1.15); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Bitácora Segunda y Tercera unidad</h1>
+    </header>
+    <main>
+            
+        <div class="semana">
+        <h3>Semana 1: Introducción a Arduino</h3>
+        <p>Introduccion a Arduino</p>
+        <embed src="recursos/Introducción Arduino. Matias C.pdf"  height="400" width="600"></embed>  
+
+    </a>
+    </div>
+    </div>
+    <div class="semana">
+            <h3>Semana 2: Prácticas de Simulación</h3>
+            <p>Video demostrativo de los circuitos de esta semana.</p>
+            
+            <video height="400" width="600" controls>
+                <source src="recursos/vid/Grabación 2026-05-14 074502.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+</div>
+
+    </main>
+    <footer>
+        <Span>@Matipichi</Span>
+        <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" height="50" width="200">
+    </footer>
+</body>
+</html>
